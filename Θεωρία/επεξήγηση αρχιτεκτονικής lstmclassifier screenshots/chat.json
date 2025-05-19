@@ -1,0 +1,4021 @@
+{
+  "requesterUsername": "JohnnyRoyal",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/162148303",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_3e0bd41e-9b7e-4a6a-9e86-80b8f6ae4715",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 245
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 2,
+              "endColumn": 22
+            },
+            "text": "Μπορείς να μου εξηγήσεις γραμμή γραμμη την κλαση LSTMClassifier. Γνωρίζω θεωρητικά την δωμή των LSTM αλλά δεν καταλαβαίνω την υλοποίηση. Και μετά να μου εξηγήσεις το training από κα΄τω και γιατί βάζει model.zero_grad() και\r\noptimizer.zero_grad()",
+            "kind": "text"
+          }
+        ],
+        "text": "Μπορείς να μου εξηγήσεις γραμμή γραμμη την κλαση LSTMClassifier. Γνωρίζω θεωρητικά την δωμή των LSTM αλλά δεν καταλαβαίνω την υλοποίηση. Και μετά να μου εξηγήσεις το training από κα΄τω και γιατί βάζει model.zero_grad() και\r\noptimizer.zero_grad()"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\config.py",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+              "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+              "scheme": "file"
+            },
+            "name": "config.py",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:lstm_classifier.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 74,
+                "startColumn": 13,
+                "endLineNumber": 75,
+                "endColumn": 34,
+                "selectionStartLineNumber": 75,
+                "selectionStartColumn": 34,
+                "positionLineNumber": 74,
+                "positionColumn": 13
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Βεβαίως! Θα σου εξηγήσω αναλυτικά την κλάση ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "LSTMClassifier",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 23,
+                "startColumn": 7,
+                "endLineNumber": 23,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "cac324f6-ddf1-4ed7-ad34-2e800bc66aaa"
+        },
+        {
+          "value": " και μετά το κομμάτι του training loop, συμπεριλαμβανομένου του γιατί χρησιμοποιούνται τα ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "d076df76-5f8a-478c-8bcf-0e8c252cc1cc"
+        },
+        {
+          "value": " και ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "7faada75-ecc2-4e68-864d-cdb2e651a55b"
+        },
+        {
+          "value": ".\n\n---\n\n### Κλάση LSTMClassifier\n\n```python\nclass LSTMClassifier(nn.Module):\n    \"\"\"docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self.n_layers > 1 else 0\n        self.input_dim = config['input_dim']\n        self.hidden_dim = config['hidden_dim']\n        self.output_dim = config['output_dim']\n        self.bidirectional = config['bidirectional']\n\n        self.rnn = nn.LSTM(self.input_dim, self.hidden_dim, bias=True,\n                           num_layers=self.n_layers, dropout=self.dropout,\n                           bidirectional=self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, (hidden, _) = self.rnn(input_seq)\n        if self.bidirectional:  # sum outputs from the two directions\n            rnn_output = rnn_output[:, :, :self.hidden_dim] +\\\n                        rnn_output[:, :, self.hidden_dim:]\n        class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n        return class_scores\n```\n\n#### Αναλυτικά:\n\n1. **Κληρονομεί από nn.Module**  \n   Αυτό είναι απαραίτητο για όλα τα custom neural network modules στο PyTorch.\n\n2. **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "__init__",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 9,
+                "endLineNumber": 25,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "89ebe55a-49b4-47c7-8e10-deca66b34165"
+        },
+        {
+          "value": "**  \n   - Παίρνει ως είσοδο ένα λεξικό ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "config",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\config.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/config.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/config.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "6f75d07f-f4bc-4832-92a1-a059e8fb625f"
+        },
+        {
+          "value": " με τις παραμέτρους του μοντέλου.\n   - Αποθηκεύει τις παραμέτρους (π.χ. αριθμός layers, dropout, input/output/hidden διαστάσεις, αν είναι bidirectional).\n   - Ορίζει το LSTM layer (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "self.rnn",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 18,
+                "endLineNumber": 25,
+                "endColumn": 18
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "14765446-4e6d-4c27-93be-67bc290f56d7"
+        },
+        {
+          "value": ") με τις παραμέτρους που πήρε.\n   - Ορίζει ένα Linear layer (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "self.out",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 18,
+                "endLineNumber": 25,
+                "endColumn": 18
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "7d73f589-8679-4882-89fa-af84dca79e94"
+        },
+        {
+          "value": ") που μετατρέπει το hidden state σε scores για κάθε κλάση.\n   - Αποθηκεύει το softmax για μετατροπή των scores σε πιθανότητες.\n\n3. **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "forward",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 40,
+                "startColumn": 9,
+                "endLineNumber": 40,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ba302c0e-389f-41cc-b6ec-c425c0865985"
+        },
+        {
+          "value": "**  \n   - Παίρνει ως είσοδο ένα sequence (συνήθως [seq_len, batch, input_dim]).\n   - Το περνάει από το LSTM. Παίρνει το output και το hidden state.\n   - Αν το LSTM είναι bidirectional, προσθέτει τα outputs των δύο κατευθύνσεων (συνήθης πρακτική για να συνδυάσεις τις πληροφορίες).\n   - Παίρνει το output του πρώτου time step (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output[0]",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "05f31a29-6fac-4a27-9420-5ed75921688e"
+        },
+        {
+          "value": "), το περνάει από το Linear layer και μετά από softmax για να πάρει πιθανότητες για κάθε κλάση.\n   - Επιστρέφει τα class scores.\n\n---\n\n### Training Loop & zero_grad\n\n```python\nfor batch in train_batches:\n    inputs = batch[0].unsqueeze(0)  # frame in format as expected by model\n    targets = batch[1]\n    inputs = inputs.to(device)\n    targets = targets.to(device)\n\n    model.zero_grad()\n    optimizer.zero_grad()\n\n    predictions = model(inputs)\n    predictions = predictions.to(device)\n\n    loss = criterion(predictions, targets)\n    loss.backward()\n    optimizer.step()\n    losses.append(loss.item())\n```\n\n#### Αναλυτικά:\n\n1. **Προετοιμασία δεδομένων**  \n   - Παίρνει το batch, κάνει reshape αν χρειάζεται, και το στέλνει στη σωστή συσκευή (CPU/GPU).\n\n2. **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ed38b023-4017-43cc-9138-692244043223"
+        },
+        {
+          "value": " και ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "41d68c77-d9bf-4c78-a90c-556bca711c5c"
+        },
+        {
+          "value": "**  \n   - **Γιατί τα βάζουμε;**\n     - Στο PyTorch, τα gradients συσσωρεύονται από κάθε backward pass.  \n     - Αν δεν τα μηδενίσεις, κάθε νέο batch θα προσθέτει τα gradients πάνω στα προηγούμενα, κάτι που δεν θέλεις.\n     - Συνήθως αρκεί μόνο το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e2ff6c18-3e77-49d3-a755-7b36a1031c31"
+        },
+        {
+          "value": ", γιατί αυτό μηδενίζει τα gradients όλων των παραμέτρων που διαχειρίζεται ο optimizer.  \n     - Το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "38bfae1a-94c1-46ec-be6a-031a6d1b8696"
+        },
+        {
+          "value": " κάνει το ίδιο, αλλά σε όλα τα parameters του μοντέλου.  \n     - Εδώ χρησιμοποιούνται και τα δύο, αλλά το ένα αρκεί (συνήθως το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "6cdcc3bb-cd10-4d42-9290-f7ba7a1840ee"
+        },
+        {
+          "value": ").\n\n3. **Forward pass**  \n   - Υπολογίζει τις προβλέψεις του μοντέλου.\n\n4. **Υπολογισμός Loss**  \n   - Υπολογίζει το loss μεταξύ των προβλέψεων και των πραγματικών labels.\n\n5. **Backward pass**  \n   - Υπολογίζει τα gradients με βάση το loss.\n\n6. **Βήμα βελτιστοποίησης**  \n   - Ο optimizer ενημερώνει τα weights του μοντέλου με βάση τα gradients.\n\n---\n\n### TL;DR\n\n- Η κλάση ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "LSTMClassifier",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 23,
+                "startColumn": 7,
+                "endLineNumber": 23,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "6033d16d-cf4a-40df-a16e-9d21f80cd0f6"
+        },
+        {
+          "value": " υλοποιεί ένα LSTM με ένα τελικό Linear layer για ταξινόμηση.\n- Το training loop κάνει forward, loss, backward, optimizer step.\n- Τα ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1918,
+                "startColumn": 9,
+                "endLineNumber": 1918,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\.conda\\Lib\\site-packages\\torch\\nn\\modules\\module.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/.conda/Lib/site-packages/torch/nn/modules/module.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/.conda/Lib/site-packages/torch/nn/modules/module.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "fee526da-c4c9-4b6c-8b69-aac2acc54fcb"
+        },
+        {
+          "value": " μηδενίζουν τα gradients πριν το κάθε batch για να μην συσσωρεύονται.\n\nΑν θες περαιτέρω ανάλυση σε κάποιο σημείο, πες μου!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_12cef19d-15f6-4dcc-a32e-238c8163595e",
+      "result": {
+        "timings": {
+          "firstProgress": 662,
+          "totalElapsed": 9797
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "class LSTMClassifier(nn.Module):\n    \"\"\"docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self.n_layers > 1 else 0\n        self.input_dim = config['input_dim']\n        self.hidden_dim = config['hidden_dim']\n        self.output_dim = config['output_dim']\n        self.bidirectional = config['bidirectional']\n\n        self.rnn = nn.LSTM(self.input_dim, self.hidden_dim, bias=True,\n                           num_layers=self.n_layers, dropout=self.dropout,\n                           bidirectional=self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, (hidden, _) = self.rnn(input_seq)\n        if self.bidirectional:  # sum outputs from the two directions\n            rnn_output = rnn_output[:, :, :self.hidden_dim] +\\\n                        rnn_output[:, :, self.hidden_dim:]\n        class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n        return class_scores\n",
+              "language": "python",
+              "markdownBeforeBlock": "Βεβαίως! Θα σου εξηγήσω αναλυτικά την κλάση  και μετά το κομμάτι του training loop, συμπεριλαμβανομένου του γιατί χρησιμοποιούνται τα  και .\n\n---\n\n### Κλάση LSTMClassifier\n\n"
+            },
+            {
+              "code": "for batch in train_batches:\n    inputs = batch[0].unsqueeze(0)  # frame in format as expected by model\n    targets = batch[1]\n    inputs = inputs.to(device)\n    targets = targets.to(device)\n\n    model.zero_grad()\n    optimizer.zero_grad()\n\n    predictions = model(inputs)\n    predictions = predictions.to(device)\n\n    loss = criterion(predictions, targets)\n    loss.backward()\n    optimizer.step()\n    losses.append(loss.item())\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n#### Αναλυτικά:\n\n1. **Κληρονομεί από nn.Module**  \n   Αυτό είναι απαραίτητο για όλα τα custom neural network modules στο PyTorch.\n\n2. ****  \n   - Παίρνει ως είσοδο ένα λεξικό  με τις παραμέτρους του μοντέλου.\n   - Αποθηκεύει τις παραμέτρους (π.χ. αριθμός layers, dropout, input/output/hidden διαστάσεις, αν είναι bidirectional).\n   - Ορίζει το LSTM layer () με τις παραμέτρους που πήρε.\n   - Ορίζει ένα Linear layer () που μετατρέπει το hidden state σε scores για κάθε κλάση.\n   - Αποθηκεύει το softmax για μετατροπή των scores σε πιθανότητες.\n\n3. ****  \n   - Παίρνει ως είσοδο ένα sequence (συνήθως [seq_len, batch, input_dim]).\n   - Το περνάει από το LSTM. Παίρνει το output και το hidden state.\n   - Αν το LSTM είναι bidirectional, προσθέτει τα outputs των δύο κατευθύνσεων (συνήθης πρακτική για να συνδυάσεις τις πληροφορίες).\n   - Παίρνει το output του πρώτου time step (), το περνάει από το Linear layer και μετά από softmax για να πάρει πιθανότητες για κάθε κλάση.\n   - Επιστρέφει τα class scores.\n\n---\n\n### Training Loop & zero_grad\n\n"
+            }
+          ],
+          "modelMessageId": "8fb63ae1-ef47-498f-b975-a2eb5fee3ec7",
+          "responseId": "0eaa1b28-1b6f-4637-b85c-f7d190bd786d",
+          "sessionId": "058fe794-4877-4c7b-b7ba-5cd9b2057626",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JohnnyRoyal",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/162148303",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\config.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/Demfier/multimodal-speech-emotion-recognition/tree/08ce281e1d88c76c14575772743db77b5675bc83/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "MIT",
+          "snippet": "nn.Module):\n    \"\"\"docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self."
+        },
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/Ascend/ModelZoo-PyTorch/tree/96ad10c3145f85a9a02cd5f48205e676ed7451b8/PyTorch/contrib/nlp/multimodal-speech-emotion-recognition_ID2977_for_PyTorch/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "Apache_2_0",
+          "snippet": "docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self.n_layers > 1 else 0\n        self.input_dim"
+        },
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/Demfier/multimodal-speech-emotion-recognition/tree/08ce281e1d88c76c14575772743db77b5675bc83/lstm_classifier/s2e/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "MIT",
+          "snippet": "self.dropout,\n                           bidirectional=self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, ("
+        },
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/stewartfohlo/speech_recognition_experiment/tree/84d1ade577e6f41fd0310f6f46db52dec4b5eef6/lstm_classifier/s2e/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "MIT",
+          "snippet": "self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, (hidden, _) = self"
+        }
+      ],
+      "timestamp": 1747496352171
+    },
+    {
+      "requestId": "request_3afba1fa-c6b8-496f-ade7-44df1c90fcc3",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 261
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 65
+            },
+            "text": "Θέλω να μου εξηγήσεις καλήτερα γιατί εδώ βάζουμε τα model.zero_grad() optimizer.zero_grad().\r\nΕίναι κάτι που κάνουμε γενικά για όλα τα Νευρωνικά Δίκτυα;;\r\nΕίναι κάτι που κάνουμε όταν έχουμε LSTM.\r\nΓιατί πειράζει να προσθέτονται τα gradients μετά από κάθε batch;",
+            "kind": "text"
+          }
+        ],
+        "text": "Θέλω να μου εξηγήσεις καλήτερα γιατί εδώ βάζουμε τα model.zero_grad() optimizer.zero_grad().\r\nΕίναι κάτι που κάνουμε γενικά για όλα τα Νευρωνικά Δίκτυα;;\r\nΕίναι κάτι που κάνουμε όταν έχουμε LSTM.\r\nΓιατί πειράζει να προσθέτονται τα gradients μετά από κάθε batch;"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:lstm_classifier.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 75,
+                "startColumn": 13,
+                "endLineNumber": 75,
+                "endColumn": 34,
+                "selectionStartLineNumber": 75,
+                "selectionStartColumn": 34,
+                "positionLineNumber": 75,
+                "positionColumn": 13
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Πολύ καλή ερώτηση! Ας τα εξηγήσουμε αναλυτικά:\n\n---\n\n### Γιατί βάζουμε ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "2fa14f48-cc3c-48aa-9ccf-8570e5a691f8"
+        },
+        {
+          "value": " και ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad();",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "40914511-e0f7-4a76-9187-49de8c461e97"
+        },
+        {
+          "value": "\n\nΣτο PyTorch, κάθε φορά που κάνεις ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "loss.backward()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 80,
+                "startColumn": 13,
+                "endLineNumber": 80,
+                "endColumn": 13
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "14d6749f-dc3b-4eaa-b2fb-d7834590b2f8"
+        },
+        {
+          "value": ", τα gradients που υπολογίζονται **προστίθενται** (accumulate) στα gradients που ήδη υπάρχουν στις παραμέτρους του μοντέλου. Αυτό γίνεται για να μπορείς, αν θέλεις, να κάνεις συσσώρευση gradients από πολλά batches πριν κάνεις update (π.χ. gradient accumulation).\n\n**Όμως, στην κλασική εκπαίδευση (training loop), θέλουμε κάθε batch να ξεκινάει με \"καθαρά\" gradients.**  \nΓι’ αυτό, πριν το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "loss.backward()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 80,
+                "startColumn": 13,
+                "endLineNumber": 80,
+                "endColumn": 13
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ec7b49f5-bc9e-479e-9da8-ebc5b41dce46"
+        },
+        {
+          "value": ", καλούμε ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "8173e735-0b0d-4484-b1d4-cc93697e897a"
+        },
+        {
+          "value": " (ή/και ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "3f090fcc-7186-4768-b2ad-8b502a3411cc"
+        },
+        {
+          "value": ") για να μηδενίσουμε τα gradients.\n\n---\n\n### Είναι κάτι που κάνουμε πάντα;\n\n**Ναι, είναι κάτι που κάνουμε σε όλα τα νευρωνικά δίκτυα στο PyTorch, όχι μόνο στα LSTM.**  \nΔεν έχει να κάνει με το αν το δίκτυο είναι LSTM, CNN, MLP ή άλλο.  \nΕίναι γενικός κανόνας για το πώς δουλεύει το autograd του PyTorch.\n\n---\n\n### Γιατί είναι πρόβλημα να προστίθενται τα gradients;\n\nΑν δεν τα μηδενίσεις, τα gradients από κάθε batch θα **συσσωρεύονται**.  \nΈτσι, όταν κάνεις ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.step()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "a5137634-c121-439d-b350-d157187ae89d"
+        },
+        {
+          "value": ", το update των weights θα γίνει με βάση το άθροισμα των gradients από όλα τα προηγούμενα batches, όχι μόνο από το τρέχον batch.  \nΑυτό θα κάνει το training να συμπεριφέρεται λάθος:  \n- Τα updates θα είναι πολύ μεγάλα και απρόβλεπτα.\n- Το μοντέλο δεν θα μάθει σωστά.\n\n---\n\n### Ποιο να χρησιμοποιώ;\n\nΣυνήθως **αρκεί μόνο το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "40db8b76-43f6-44d5-a348-c2e9c1de0d26"
+        },
+        {
+          "value": "**.  \nΤο ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e31e03a9-6ef2-477b-ae3c-d6f6b4cbaf53"
+        },
+        {
+          "value": " κάνει το ίδιο, αλλά καλεί το zero_grad για όλα τα parameters του μοντέλου.  \nΑν χρησιμοποιείς custom optimizer που δεν έχει όλα τα parameters, μπορεί να χρειαστείς και το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "27ba572d-7a8a-44c6-b2b4-0a288665aca1"
+        },
+        {
+          "value": ", αλλά σχεδόν πάντα το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "c3976e19-fb0a-4eef-85b1-0e3e708fd7a9"
+        },
+        {
+          "value": " είναι αρκετό.\n\n---\n\n**Συμπέρασμα:**  \n- Πάντα μηδενίζουμε τα gradients πριν το backward pass, σε κάθε είδος νευρωνικού δικτύου.\n- Αν δεν το κάνεις, το training θα είναι λάθος.\n- Δεν έχει να κάνει με το LSTM, αλλά με το πώς δουλεύει το PyTorch γενικά.",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_c2955001-1e17-48a7-800b-b5c4be64efac",
+      "result": {
+        "timings": {
+          "firstProgress": 910,
+          "totalElapsed": 6323
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "modelMessageId": "0b0a6645-74e7-4c95-998e-8e2a2e815c6b",
+          "responseId": "2e80713a-31c6-4009-a419-23699841f673",
+          "sessionId": "058fe794-4877-4c7b-b7ba-5cd9b2057626",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JohnnyRoyal",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/162148303",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1747497691335
+    },
+    {
+      "requestId": "request_c10a21f6-972c-433b-aa72-284e21070041",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 61
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 62
+            },
+            "text": "Μήπως έχει το model.zero_grad επειδή έχει dropout rate 0.2 ;;",
+            "kind": "text"
+          }
+        ],
+        "text": "Μήπως έχει το model.zero_grad επειδή έχει dropout rate 0.2 ;;"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:lstm_classifier.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 75,
+                "startColumn": 13,
+                "endLineNumber": 75,
+                "endColumn": 34,
+                "selectionStartLineNumber": 75,
+                "selectionStartColumn": 34,
+                "positionLineNumber": 75,
+                "positionColumn": 13
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Όχι, το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "35fc23ac-32c9-4962-b5a6-4ad793b58759"
+        },
+        {
+          "value": " **δεν έχει σχέση με το dropout**.  \nΤο dropout είναι μια τεχνική regularization που \"μηδενίζει\" τυχαία κάποιες νευρωνικές μονάδες κατά το training για να αποφευχθεί το overfitting. Δεν επηρεάζει τα gradients ή το πώς συσσωρεύονται.\n\nΤο ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "fada5499-cf71-453a-9d89-e5e849c3a79d"
+        },
+        {
+          "value": " (ή το πιο συνηθισμένο ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "d473e2c7-ddd8-4fec-a2c9-818f4be526eb"
+        },
+        {
+          "value": ") χρησιμοποιείται **για να μηδενίσει τα gradients** πριν το backward pass, όπως εξηγήσαμε πριν. Αυτό είναι απαραίτητο ανεξάρτητα από το αν έχεις dropout ή όχι.\n\n**Συμπέρασμα:**  \nΤο dropout δεν σχετίζεται με το μηδενισμό των gradients.  \nΤο ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1918,
+                "startColumn": 9,
+                "endLineNumber": 1918,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\.conda\\Lib\\site-packages\\torch\\nn\\modules\\module.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/.conda/Lib/site-packages/torch/nn/modules/module.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/.conda/Lib/site-packages/torch/nn/modules/module.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "7df02bc0-a972-4faa-b742-cc24371bef8b"
+        },
+        {
+          "value": " το κάνεις πάντα πριν το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "loss.backward()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 80,
+                "startColumn": 13,
+                "endLineNumber": 80,
+                "endColumn": 13
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "5baf5f41-1d66-4f27-ba0c-b22d31fe2b3f"
+        },
+        {
+          "value": ", σε κάθε είδος layer (LSTM, dropout, κλπ).",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_cbd14946-778c-4eb6-9c4e-199e95d9ce49",
+      "result": {
+        "timings": {
+          "firstProgress": 759,
+          "totalElapsed": 2393
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "modelMessageId": "2236f754-498b-4b2d-88a1-4545b3bfe235",
+          "responseId": "ef4116f8-9397-49a3-b8fc-b92cad7e49f2",
+          "sessionId": "058fe794-4877-4c7b-b7ba-5cd9b2057626",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JohnnyRoyal",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/162148303",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1747498196170
+    },
+    {
+      "requestId": "request_0c2d6cb7-70ee-407c-9d3b-1cb0b9d48850",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 297
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 3,
+              "endColumn": 113
+            },
+            "text": "Ωραία τώρα μπορείς να μου εξηγήσεις το class LSTMClassifier και το trainning loop ξανά.\r\nΜε εξαντλιτική ανάλυση τι κάνει κάθε συνάρτηση ,για να μάθω ακριβώς πως γίνονται στην pytorch.\r\nΔηλαδή τι πέρνει σαν όρισμα κάθε συνάρτηση , τη κάνει και τι επιστρέφει και τον λόγο που χρησιμοποιήτε κάθε μια.",
+            "kind": "text"
+          }
+        ],
+        "text": "Ωραία τώρα μπορείς να μου εξηγήσεις το class LSTMClassifier και το trainning loop ξανά.\r\nΜε εξαντλιτική ανάλυση τι κάνει κάθε συνάρτηση ,για να μάθω ακριβώς πως γίνονται στην pytorch.\r\nΔηλαδή τι πέρνει σαν όρισμα κάθε συνάρτηση , τη κάνει και τι επιστρέφει και τον λόγο που χρησιμοποιήτε κάθε μια."
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\config.py",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+              "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+              "scheme": "file"
+            },
+            "name": "config.py",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:lstm_classifier.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 75,
+                "startColumn": 13,
+                "endLineNumber": 75,
+                "endColumn": 34,
+                "selectionStartLineNumber": 75,
+                "selectionStartColumn": 34,
+                "positionLineNumber": 75,
+                "positionColumn": 13
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Βεβαίως! Θα σου κάνω **εξαντλητική ανάλυση** της κλάσης ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "LSTMClassifier",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 23,
+                "startColumn": 7,
+                "endLineNumber": 23,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "cd553113-80f6-4b0d-b8f7-086ae51b6c53"
+        },
+        {
+          "value": " και του training loop, εξηγώντας κάθε συνάρτηση, τα ορίσματά της, τι κάνει και γιατί χρησιμοποιείται.\n\n---\n\n## Κλάση ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "LSTMClassifier",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 23,
+                "startColumn": 7,
+                "endLineNumber": 23,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "481b4b99-7d4c-42ed-b2aa-12ec25fe7df6"
+        },
+        {
+          "value": "\n\n```python\nclass LSTMClassifier(nn.Module):\n    \"\"\"docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self.n_layers > 1 else 0\n        self.input_dim = config['input_dim']\n        self.hidden_dim = config['hidden_dim']\n        self.output_dim = config['output_dim']\n        self.bidirectional = config['bidirectional']\n\n        self.rnn = nn.LSTM(self.input_dim, self.hidden_dim, bias=True,\n                           num_layers=self.n_layers, dropout=self.dropout,\n                           bidirectional=self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, (hidden, _) = self.rnn(input_seq)\n        if self.bidirectional:  # sum outputs from the two directions\n            rnn_output = rnn_output[:, :, :self.hidden_dim] +\\\n                        rnn_output[:, :, self.hidden_dim:]\n        class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n        return class_scores\n```\n\n### Αναλυτικά:\n\n#### 1. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "__init__(self, config)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 9,
+                "endLineNumber": 25,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "2ebfe4af-32a9-4944-8d21-79437f674667"
+        },
+        {
+          "value": "\n- **Τι είναι:** Ο constructor της κλάσης. Εκτελείται όταν δημιουργείς το αντικείμενο.\n- **Όρισμα:**  \n  - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "config",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 1,
+                "endColumn": 1
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\config.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/config.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/config.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "814c8ecc-f498-4d8f-ae60-6ae7722df9fc"
+        },
+        {
+          "value": ": Ένα λεξικό (dictionary) με τις παραμέτρους του μοντέλου (π.χ. διαστάσεις, dropout, layers).\n- **Τι κάνει:**  \n  - Καλεί τον constructor της γονικής κλάσης (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "super()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 219,
+                "startColumn": 7,
+                "endLineNumber": 219,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\.vscode\\extensions\\ms-python.vscode-pylance-2025.5.1\\dist\\typeshed-fallback\\stdlib\\builtins.pyi",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist/typeshed-fallback/stdlib/builtins.pyi",
+                "path": "/c:/Users/jkazi/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist/typeshed-fallback/stdlib/builtins.pyi",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "7bbe0e91-7beb-48c0-91d1-e5a5b02b3ff5"
+        },
+        {
+          "value": ").\n  - Αποθηκεύει τις παραμέτρους από το config ως attributes του αντικειμένου.\n  - Φτιάχνει το LSTM layer (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "self.rnn",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 18,
+                "endLineNumber": 25,
+                "endColumn": 18
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "c188bff6-8081-442c-b794-92db5eee401d"
+        },
+        {
+          "value": ") με τις παραμέτρους που του έδωσες:\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "input_dim",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 29,
+                "startColumn": 14,
+                "endLineNumber": 29,
+                "endColumn": 14
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "45159432-f5cb-4e51-a35a-1f7b0e41cb1a"
+        },
+        {
+          "value": ": Πόσα features έχει κάθε input vector.\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "hidden_dim",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 30,
+                "startColumn": 14,
+                "endLineNumber": 30,
+                "endColumn": 14
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "5161866e-93b6-4a47-bb62-b75311e7e169"
+        },
+        {
+          "value": ": Μέγεθος του hidden state.\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "n_layers",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 27,
+                "startColumn": 14,
+                "endLineNumber": 27,
+                "endColumn": 14
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "5a81910c-f423-4339-8c53-bcec1a73ddbe"
+        },
+        {
+          "value": ": Πόσα layers έχει το LSTM.\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "dropout",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 28,
+                "startColumn": 14,
+                "endLineNumber": 28,
+                "endColumn": 14
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "0a302317-465f-4cf8-8d42-55f0fc103d2c"
+        },
+        {
+          "value": ": Πόσο dropout να βάλει ανάμεσα στα layers (αν έχεις πάνω από 1 layer).\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "bidirectional",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 32,
+                "startColumn": 14,
+                "endLineNumber": 32,
+                "endColumn": 14
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ba4facdc-7a75-4e80-9bd1-046091e20ef3"
+        },
+        {
+          "value": ": Αν το LSTM θα είναι bidirectional (δηλαδή θα διαβάζει και μπρος και πίσω).\n  - Φτιάχνει ένα Linear layer (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "self.out",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 18,
+                "endLineNumber": 25,
+                "endColumn": 18
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "9685ca45-6dc6-4e97-bae6-3b7d2008d305"
+        },
+        {
+          "value": ") που παίρνει το hidden state και το μετατρέπει σε scores για κάθε κλάση.\n  - Αποθηκεύει το softmax function για να μετατρέψει τα scores σε πιθανότητες.\n\n#### 2. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "forward(self, input_seq)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 40,
+                "startColumn": 9,
+                "endLineNumber": 40,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "984c6cdf-7bf7-40e3-b61b-e8d9c2b772ea"
+        },
+        {
+          "value": "\n- **Τι είναι:** Η βασική συνάρτηση που ορίζει το forward pass του μοντέλου.  \n  Όταν κάνεις ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "model(x)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 56,
+                "startColumn": 5,
+                "endLineNumber": 56,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "905ffe77-ee33-4e11-95fd-14d45b875897"
+        },
+        {
+          "value": ", καλείται αυτόματα αυτή η συνάρτηση.\n- **Όρισμα:**  \n  - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "input_seq",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 40,
+                "startColumn": 23,
+                "endLineNumber": 40,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e9cddee4-8214-4893-b137-21445946cbcc"
+        },
+        {
+          "value": ": Το input sequence. Συνήθως έχει shape `[seq_len, batch_size, input_dim]`. Εδώ το περνάς ως `[1, batch_size, input_dim]` (δηλαδή sequence μήκους 1).\n- **Τι κάνει:**  \n  - Περνάει το input από το LSTM layer:\n    ```python\n    rnn_output, (hidden, _) = self.rnn(input_seq)\n    ```\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "529c8788-ce93-4977-8f41-a41208e22a15"
+        },
+        {
+          "value": ": Τα outputs του LSTM για κάθε time step.\n    - ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "hidden",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 22,
+                "endLineNumber": 42,
+                "endColumn": 22
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ebf444d8-80e1-4566-b86c-98619bb234f3"
+        },
+        {
+          "value": ": Το τελευταίο hidden state.\n  - Αν το LSTM είναι bidirectional, προσθέτει τα outputs των δύο κατευθύνσεων:\n    ```python\n    rnn_output = rnn_output[:, :, :self.hidden_dim] + rnn_output[:, :, self.hidden_dim:]\n    ```\n    - Αυτό συνδυάζει τις πληροφορίες από μπρος και πίσω.\n  - Παίρνει το output του πρώτου time step (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output[0]",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "9bbdc57d-cc9f-4a9f-97d9-698b7c312753"
+        },
+        {
+          "value": "), το περνάει από το Linear layer και μετά από softmax:\n    ```python\n    class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n    ```\n    - Το Linear layer μετατρέπει το hidden state σε scores για κάθε κλάση.\n    - Το softmax μετατρέπει τα scores σε πιθανότητες.\n  - **Επιστρέφει:**  \n    - Ένα tensor με τις πιθανότητες για κάθε κλάση για κάθε δείγμα του batch.\n\n---\n\n## Training Loop\n\n```python\nfor epoch in range(config['n_epochs']):\n    print(f\"Epoch {epoch + 1}/{config['n_epochs']}\")\n    losses = []\n    for batch in train_batches:\n        inputs = batch[0].unsqueeze(0)  # frame in format as expected by model\n        targets = batch[1]\n        inputs = inputs.to(device)\n        targets = targets.to(device)\n\n        model.zero_grad()\n        optimizer.zero_grad()\n\n        predictions = model(inputs)\n        predictions = predictions.to(device)\n\n        loss = criterion(predictions, targets)\n        loss.backward()\n        optimizer.step()\n        losses.append(loss.item())\n```\n\n### Αναλυτικά:\n\n#### 1. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "for epoch in range(config['n_epochs']):",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1242,
+                "startColumn": 7,
+                "endLineNumber": 1242,
+                "endColumn": 7
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\.vscode\\extensions\\ms-python.vscode-pylance-2025.5.1\\dist\\typeshed-fallback\\stdlib\\builtins.pyi",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist/typeshed-fallback/stdlib/builtins.pyi",
+                "path": "/c:/Users/jkazi/.vscode/extensions/ms-python.vscode-pylance-2025.5.1/dist/typeshed-fallback/stdlib/builtins.pyi",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "d1a7d77c-fdf5-4caa-bf56-e5bf4f0c9c49"
+        },
+        {
+          "value": "\n- **Τι κάνει:**  \n  - Επαναλαμβάνει το training για όσες εποχές (epochs) έχεις ορίσει στο config.\n\n#### 2. ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "for batch in train_batches:",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 61,
+                "startColumn": 5,
+                "endLineNumber": 61,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "1af3754e-ac05-4b77-ba12-7cd2ecaacac3"
+        },
+        {
+          "value": "\n- **Τι κάνει:**  \n  - Για κάθε batch δεδομένων στο training set, εκτελεί τα παρακάτω βήματα.\n\n#### 3. Προετοιμασία δεδομένων\n```python\ninputs = batch[0].unsqueeze(0)\ntargets = batch[1]\ninputs = inputs.to(device)\ntargets = targets.to(device)\n```\n- **Τι κάνει:**  \n  - Παίρνει τα inputs και τα targets από το batch.\n  - Κάνει unsqueeze για να προσθέσει dimension στο sequence length (ώστε να ταιριάζει με το LSTM).\n  - Μεταφέρει τα δεδομένα στη σωστή συσκευή (CPU ή GPU).\n\n#### 4. Μηδενισμός gradients\n```python\nmodel.zero_grad()\noptimizer.zero_grad()\n```\n- **Τι κάνει:**  \n  - Μηδενίζει τα gradients όλων των παραμέτρων του μοντέλου.\n  - **Γιατί:**  \n    - Όπως εξηγήσαμε, τα gradients συσσωρεύονται στο PyTorch. Πρέπει να τα μηδενίζεις πριν το κάθε backward pass, αλλιώς θα προστίθενται και το training θα είναι λάθος.\n  - **Συνήθως αρκεί μόνο το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "b719c52b-65b2-4573-a1c5-208de5017650"
+        },
+        {
+          "value": "**.\n\n#### 5. Forward pass\n```python\npredictions = model(inputs)\npredictions = predictions.to(device)\n```\n- **Τι κάνει:**  \n  - Κάνει forward pass: περνάει τα inputs από το μοντέλο και παίρνει τις προβλέψεις (πιθανότητες για κάθε κλάση).\n\n#### 6. Υπολογισμός Loss\n```python\nloss = criterion(predictions, targets)\n```\n- **Τι κάνει:**  \n  - Υπολογίζει το loss (σφάλμα) μεταξύ των προβλέψεων και των πραγματικών labels.\n  - **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "criterion",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 58,
+                "startColumn": 5,
+                "endLineNumber": 58,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ec6d2505-482e-48ad-bc2e-4531f0d603c4"
+        },
+        {
+          "value": "** είναι η συνάρτηση απώλειας (εδώ CrossEntropyLoss).\n\n#### 7. Backward pass (υπολογισμός gradients)\n```python\nloss.backward()\n```\n- **Τι κάνει:**  \n  - Υπολογίζει τα gradients των παραμέτρων του μοντέλου ως προς το loss.\n\n#### 8. Βήμα βελτιστοποίησης (update των weights)\n```python\noptimizer.step()\n```\n- **Τι κάνει:**  \n  - Ο optimizer ενημερώνει τα weights του μοντέλου με βάση τα gradients που υπολογίστηκαν στο backward pass.\n\n#### 9. Αποθήκευση του loss\n```python\nlosses.append(loss.item())\n```\n- **Τι κάνει:**  \n  - Αποθηκεύει την τιμή του loss για να μπορείς να παρακολουθείς την εξέλιξη του training.\n\n---\n\n## Συνοψίζοντας\n\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "__init__",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 9,
+                "endLineNumber": 25,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "77edca6d-349d-44f3-b9a4-502a55d7296a"
+        },
+        {
+          "value": "**: Ορίζει τα layers και τις παραμέτρους του μοντέλου.\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "forward",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 40,
+                "startColumn": 9,
+                "endLineNumber": 40,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "c38f2a01-7fe5-423e-8740-24c9cc5e4895"
+        },
+        {
+          "value": "**: Ορίζει πώς περνάει το input από το μοντέλο και τι επιστρέφει.\n- **Training loop**:  \n  - Παίρνει batches, τα περνάει από το μοντέλο, υπολογίζει loss, κάνει backward, μηδενίζει gradients, κάνει optimizer step.\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "zero_grad()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 1918,
+                "startColumn": 9,
+                "endLineNumber": 1918,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\.conda\\Lib\\site-packages\\torch\\nn\\modules\\module.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/.conda/Lib/site-packages/torch/nn/modules/module.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/.conda/Lib/site-packages/torch/nn/modules/module.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "60f2353a-b541-4481-8eaf-c997484f0e74"
+        },
+        {
+          "value": "**: Μηδενίζει τα gradients πριν το backward pass (απαραίτητο για σωστό training).\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "loss.backward()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 80,
+                "startColumn": 13,
+                "endLineNumber": 80,
+                "endColumn": 13
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "c1fb35f0-6840-41f0-97d8-00d9c769225a"
+        },
+        {
+          "value": "**: Υπολογίζει τα gradients.\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "optimizer.step()",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 59,
+                "startColumn": 5,
+                "endLineNumber": 59,
+                "endColumn": 5
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "379327cc-af0c-4a13-97af-93707efaccf5"
+        },
+        {
+          "value": "**: Ενημερώνει τα weights.\n\nΑν θέλεις να σου εξηγήσω και το evaluation κομμάτι ή κάτι άλλο πιο αναλυτικά, πες μου!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_2bcd4da4-554a-4b8d-a43c-c29b05f406dc",
+      "result": {
+        "timings": {
+          "firstProgress": 1088,
+          "totalElapsed": 14844
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "class LSTMClassifier(nn.Module):\n    \"\"\"docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self.n_layers > 1 else 0\n        self.input_dim = config['input_dim']\n        self.hidden_dim = config['hidden_dim']\n        self.output_dim = config['output_dim']\n        self.bidirectional = config['bidirectional']\n\n        self.rnn = nn.LSTM(self.input_dim, self.hidden_dim, bias=True,\n                           num_layers=self.n_layers, dropout=self.dropout,\n                           bidirectional=self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, (hidden, _) = self.rnn(input_seq)\n        if self.bidirectional:  # sum outputs from the two directions\n            rnn_output = rnn_output[:, :, :self.hidden_dim] +\\\n                        rnn_output[:, :, self.hidden_dim:]\n        class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n        return class_scores\n",
+              "language": "python",
+              "markdownBeforeBlock": "Βεβαίως! Θα σου κάνω **εξαντλητική ανάλυση** της κλάσης  και του training loop, εξηγώντας κάθε συνάρτηση, τα ορίσματά της, τι κάνει και γιατί χρησιμοποιείται.\n\n---\n\n## Κλάση \n\n"
+            },
+            {
+              "code": "for epoch in range(config['n_epochs']):\n    print(f\"Epoch {epoch + 1}/{config['n_epochs']}\")\n    losses = []\n    for batch in train_batches:\n        inputs = batch[0].unsqueeze(0)  # frame in format as expected by model\n        targets = batch[1]\n        inputs = inputs.to(device)\n        targets = targets.to(device)\n\n        model.zero_grad()\n        optimizer.zero_grad()\n\n        predictions = model(inputs)\n        predictions = predictions.to(device)\n\n        loss = criterion(predictions, targets)\n        loss.backward()\n        optimizer.step()\n        losses.append(loss.item())\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n### Αναλυτικά:\n\n#### 1. \n- **Τι είναι:** Ο constructor της κλάσης. Εκτελείται όταν δημιουργείς το αντικείμενο.\n- **Όρισμα:**  \n  - : Ένα λεξικό (dictionary) με τις παραμέτρους του μοντέλου (π.χ. διαστάσεις, dropout, layers).\n- **Τι κάνει:**  \n  - Καλεί τον constructor της γονικής κλάσης ().\n  - Αποθηκεύει τις παραμέτρους από το config ως attributes του αντικειμένου.\n  - Φτιάχνει το LSTM layer () με τις παραμέτρους που του έδωσες:\n    - : Πόσα features έχει κάθε input vector.\n    - : Μέγεθος του hidden state.\n    - : Πόσα layers έχει το LSTM.\n    - : Πόσο dropout να βάλει ανάμεσα στα layers (αν έχεις πάνω από 1 layer).\n    - : Αν το LSTM θα είναι bidirectional (δηλαδή θα διαβάζει και μπρος και πίσω).\n  - Φτιάχνει ένα Linear layer () που παίρνει το hidden state και το μετατρέπει σε scores για κάθε κλάση.\n  - Αποθηκεύει το softmax function για να μετατρέψει τα scores σε πιθανότητες.\n\n#### 2. \n- **Τι είναι:** Η βασική συνάρτηση που ορίζει το forward pass του μοντέλου.  \n  Όταν κάνεις , καλείται αυτόματα αυτή η συνάρτηση.\n- **Όρισμα:**  \n  - : Το input sequence. Συνήθως έχει shape `[seq_len, batch_size, input_dim]`. Εδώ το περνάς ως `[1, batch_size, input_dim]` (δηλαδή sequence μήκους 1).\n- **Τι κάνει:**  \n  - Περνάει το input από το LSTM layer:\n    ```python\n    rnn_output, (hidden, _) = self.rnn(input_seq)\n    ```\n    - : Τα outputs του LSTM για κάθε time step.\n    - : Το τελευταίο hidden state.\n  - Αν το LSTM είναι bidirectional, προσθέτει τα outputs των δύο κατευθύνσεων:\n    ```python\n    rnn_output = rnn_output[:, :, :self.hidden_dim] + rnn_output[:, :, self.hidden_dim:]\n    ```\n    - Αυτό συνδυάζει τις πληροφορίες από μπρος και πίσω.\n  - Παίρνει το output του πρώτου time step (), το περνάει από το Linear layer και μετά από softmax:\n    ```python\n    class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n    ```\n    - Το Linear layer μετατρέπει το hidden state σε scores για κάθε κλάση.\n    - Το softmax μετατρέπει τα scores σε πιθανότητες.\n  - **Επιστρέφει:**  \n    - Ένα tensor με τις πιθανότητες για κάθε κλάση για κάθε δείγμα του batch.\n\n---\n\n## Training Loop\n\n"
+            },
+            {
+              "code": "inputs = batch[0].unsqueeze(0)\ntargets = batch[1]\ninputs = inputs.to(device)\ntargets = targets.to(device)\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n### Αναλυτικά:\n\n#### 1. \n- **Τι κάνει:**  \n  - Επαναλαμβάνει το training για όσες εποχές (epochs) έχεις ορίσει στο config.\n\n#### 2. \n- **Τι κάνει:**  \n  - Για κάθε batch δεδομένων στο training set, εκτελεί τα παρακάτω βήματα.\n\n#### 3. Προετοιμασία δεδομένων\n"
+            },
+            {
+              "code": "model.zero_grad()\noptimizer.zero_grad()\n",
+              "language": "python",
+              "markdownBeforeBlock": "- **Τι κάνει:**  \n  - Παίρνει τα inputs και τα targets από το batch.\n  - Κάνει unsqueeze για να προσθέσει dimension στο sequence length (ώστε να ταιριάζει με το LSTM).\n  - Μεταφέρει τα δεδομένα στη σωστή συσκευή (CPU ή GPU).\n\n#### 4. Μηδενισμός gradients\n"
+            },
+            {
+              "code": "predictions = model(inputs)\npredictions = predictions.to(device)\n",
+              "language": "python",
+              "markdownBeforeBlock": "- **Τι κάνει:**  \n  - Μηδενίζει τα gradients όλων των παραμέτρων του μοντέλου.\n  - **Γιατί:**  \n    - Όπως εξηγήσαμε, τα gradients συσσωρεύονται στο PyTorch. Πρέπει να τα μηδενίζεις πριν το κάθε backward pass, αλλιώς θα προστίθενται και το training θα είναι λάθος.\n  - **Συνήθως αρκεί μόνο το **.\n\n#### 5. Forward pass\n"
+            },
+            {
+              "code": "loss = criterion(predictions, targets)\n",
+              "language": "python",
+              "markdownBeforeBlock": "- **Τι κάνει:**  \n  - Κάνει forward pass: περνάει τα inputs από το μοντέλο και παίρνει τις προβλέψεις (πιθανότητες για κάθε κλάση).\n\n#### 6. Υπολογισμός Loss\n"
+            },
+            {
+              "code": "loss.backward()\n",
+              "language": "python",
+              "markdownBeforeBlock": "- **Τι κάνει:**  \n  - Υπολογίζει το loss (σφάλμα) μεταξύ των προβλέψεων και των πραγματικών labels.\n  - **** είναι η συνάρτηση απώλειας (εδώ CrossEntropyLoss).\n\n#### 7. Backward pass (υπολογισμός gradients)\n"
+            },
+            {
+              "code": "optimizer.step()\n",
+              "language": "python",
+              "markdownBeforeBlock": "- **Τι κάνει:**  \n  - Υπολογίζει τα gradients των παραμέτρων του μοντέλου ως προς το loss.\n\n#### 8. Βήμα βελτιστοποίησης (update των weights)\n"
+            },
+            {
+              "code": "losses.append(loss.item())\n",
+              "language": "python",
+              "markdownBeforeBlock": "- **Τι κάνει:**  \n  - Ο optimizer ενημερώνει τα weights του μοντέλου με βάση τα gradients που υπολογίστηκαν στο backward pass.\n\n#### 9. Αποθήκευση του loss\n"
+            }
+          ],
+          "modelMessageId": "5b93e2fd-bcf9-47a0-a5b4-3a7fccb0e1c5",
+          "responseId": "02f14116-3a00-4499-964c-0eec913d7a56",
+          "sessionId": "058fe794-4877-4c7b-b7ba-5cd9b2057626",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JohnnyRoyal",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/162148303",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\config.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/Demfier/multimodal-speech-emotion-recognition/tree/08ce281e1d88c76c14575772743db77b5675bc83/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "MIT",
+          "snippet": "nn.Module):\n    \"\"\"docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self."
+        },
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/Ascend/ModelZoo-PyTorch/tree/96ad10c3145f85a9a02cd5f48205e676ed7451b8/PyTorch/contrib/nlp/multimodal-speech-emotion-recognition_ID2977_for_PyTorch/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "Apache_2_0",
+          "snippet": "docstring for LSTMClassifier\"\"\"\n    def __init__(self, config):\n        super(LSTMClassifier, self).__init__()\n        self.n_layers = config['n_layers']\n        self.dropout = config['dropout'] if self.n_layers > 1 else 0\n        self.input_dim"
+        },
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/Demfier/multimodal-speech-emotion-recognition/tree/08ce281e1d88c76c14575772743db77b5675bc83/lstm_classifier/s2e/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "MIT",
+          "snippet": "self.dropout,\n                           bidirectional=self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, ("
+        },
+        {
+          "kind": "codeCitation",
+          "value": {
+            "$mid": 1,
+            "path": "/stewartfohlo/speech_recognition_experiment/tree/84d1ade577e6f41fd0310f6f46db52dec4b5eef6/lstm_classifier/s2e/lstm_classifier.py",
+            "scheme": "https",
+            "authority": "github.com"
+          },
+          "license": "MIT",
+          "snippet": "self.bidirectional)\n        self.out = nn.Linear(self.hidden_dim, self.output_dim)\n        self.softmax = F.softmax\n\n    def forward(self, input_seq):\n        # input_seq =. [1, batch_size, input_size]\n        rnn_output, (hidden, _) = self"
+        }
+      ],
+      "timestamp": 1747498641787
+    },
+    {
+      "requestId": "request_e3817830-5f1a-490c-915c-e1c676269656",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 489
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 217
+            },
+            "text": "Στο forward το rnn_output, (hidden, _) = self.rnn(input_seq) τι είναι το _ δίπλα στο hidden ;;\r\nΟι μεταβλητές αριστερά από το = είναι οι εξόδοι του lstm layer ;;;;\r\nΔεν θα έπρεπε να έχει 2 εξόδους το hidden state (short term memory ) και το cell state (long term memory).\r\nΚαι η αναδρομικότητα γίενται αυτόματα στην pytorch ;;;; Εμείς δεν βάζουμε κάπου δηλαδή το input του επόμενου LSTM cell να είναι το τωρινό input features και το hidden state και το cell state του προηγούμενου LTSM ;;;",
+            "kind": "text"
+          }
+        ],
+        "text": "Στο forward το rnn_output, (hidden, _) = self.rnn(input_seq) τι είναι το _ δίπλα στο hidden ;;\r\nΟι μεταβλητές αριστερά από το = είναι οι εξόδοι του lstm layer ;;;;\r\nΔεν θα έπρεπε να έχει 2 εξόδους το hidden state (short term memory ) και το cell state (long term memory).\r\nΚαι η αναδρομικότητα γίενται αυτόματα στην pytorch ;;;; Εμείς δεν βάζουμε κάπου δηλαδή το input του επόμενου LSTM cell να είναι το τωρινό input features και το hidden state και το cell state του προηγούμενου LTSM ;;;"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "value": {
+              "$mid": 1,
+              "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\config.py",
+              "_sep": 1,
+              "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+              "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+              "scheme": "file"
+            },
+            "name": "config.py",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.selection",
+            "name": "file:lstm_classifier.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 54,
+                "selectionStartLineNumber": 42,
+                "selectionStartColumn": 54,
+                "positionLineNumber": 42,
+                "positionColumn": 9
+              }
+            },
+            "modelDescription": "User's active selection"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Πολύ καλές και ουσιαστικές ερωτήσεις! Ας τα εξηγήσουμε αναλυτικά:\n\n---\n\n### 1. Τι είναι το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "_",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 30,
+                "endLineNumber": 42,
+                "endColumn": 30
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "4e88830f-0d15-4384-b74b-5fb2cd2ef416"
+        },
+        {
+          "value": " δίπλα στο ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "hidden",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 22,
+                "endLineNumber": 42,
+                "endColumn": 22
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "e2125a8e-1b27-485f-9aa7-368c3f46d6ef"
+        },
+        {
+          "value": ";\n\n```python\nrnn_output, (hidden, _) = self.rnn(input_seq)\n```\n\n- Το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "self.rnn(input_seq)",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 25,
+                "startColumn": 18,
+                "endLineNumber": 25,
+                "endColumn": 18
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "f71487ff-bd10-4c1d-9f74-e01ebcb40f12"
+        },
+        {
+          "value": " επιστρέφει **δύο πράγματα**:\n  1. **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "09ba0763-dfcc-45b5-8634-a4cb67149194"
+        },
+        {
+          "value": "**: Τα outputs του LSTM για κάθε time step (όλα τα hidden states).\n  2. **`(hidden, cell)`**: Μια πλειάδα (tuple) με το **τελευταίο hidden state** και το **τελευταίο cell state**.\n- Εδώ, το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "hidden",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 22,
+                "endLineNumber": 42,
+                "endColumn": 22
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "7324295e-ac67-4f8c-887c-51918ea33be8"
+        },
+        {
+          "value": " παίρνει το τελευταίο hidden state, και το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "_",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 30,
+                "endLineNumber": 42,
+                "endColumn": 30
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "f2f9e1a7-88d9-4ec5-b216-4d92bb8fde10"
+        },
+        {
+          "value": " παίρνει το τελευταίο cell state.\n- Το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "_",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 30,
+                "endLineNumber": 42,
+                "endColumn": 30
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "85b0a8fa-af7d-4ea1-bc1a-6b5bade2b7c0"
+        },
+        {
+          "value": " είναι συμβατική ονομασία στην Python όταν δεν σε ενδιαφέρει να χρησιμοποιήσεις αυτή τη μεταβλητή.\n\n---\n\n### 2. Οι μεταβλητές αριστερά από το `=` είναι οι έξοδοι του LSTM layer;\n\nΝαι!  \n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "31adb59f-7998-4dc4-9ca0-d414d70f4d70"
+        },
+        {
+          "value": "**: Όλα τα outputs του LSTM για κάθε time step (shape: `[seq_len, batch, num_directions * hidden_size]`).\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "hidden",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 22,
+                "endLineNumber": 42,
+                "endColumn": 22
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "3cce7805-d732-4477-a4ae-8f17c5a0d174"
+        },
+        {
+          "value": "**: Το τελευταίο hidden state για κάθε layer και κάθε direction (shape: `[num_layers * num_directions, batch, hidden_size]`).\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "_",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 30,
+                "endLineNumber": 42,
+                "endColumn": 30
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "ad979276-b126-4b7c-a06a-1375a483f460"
+        },
+        {
+          "value": " (cell)**: Το τελευταίο cell state για κάθε layer και κάθε direction (ίδιο shape με το hidden).\n\n---\n\n### 3. Δεν θα έπρεπε να έχει 2 εξόδους το hidden state (short term memory) και το cell state (long term memory);\n\n**Ναι, σωστά!**  \nΤο LSTM επιστρέφει και τα δύο:\n- Το **hidden state** (short-term memory)\n- Το **cell state** (long-term memory)\n\nΣτην PyTorch, το LSTM επιστρέφει:\n```python\noutput, (h_n, c_n)\n```\nόπου:\n- `output`: Όλα τα hidden states για κάθε time step.\n- `h_n`: Το τελευταίο hidden state.\n- `c_n`: Το τελευταίο cell state.\n\n---\n\n### 4. Η αναδρομικότητα γίνεται αυτόματα στην PyTorch;\n\n**Ναι, γίνεται αυτόματα!**  \n- Όταν καλείς το LSTM layer με ένα sequence, η PyTorch φροντίζει να περάσει το κάθε input του time step στο επόμενο LSTM cell μαζί με το hidden και cell state.\n- Εσύ απλά δίνεις όλο το sequence και η PyTorch κάνει όλη την \"αλυσίδα\" εσωτερικά.\n\n**Δεν χρειάζεται να γράψεις εσύ τον βρόχο για τα time steps ή να περάσεις χειροκίνητα τα hidden/cell states από το ένα βήμα στο άλλο.**\n\n---\n\n### Παράδειγμα (για να το δεις πιο καθαρά):\n\n```python\nlstm = nn.LSTM(input_size, hidden_size, num_layers)\noutput, (h_n, c_n) = lstm(input_seq)\n```\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "input_seq",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 40,
+                "startColumn": 23,
+                "endLineNumber": 40,
+                "endColumn": 23
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "50e40e1b-ebed-4aa0-9115-75bb53304ba4"
+        },
+        {
+          "value": "**: [seq_len, batch, input_size]\n- **`output`**: [seq_len, batch, num_directions * hidden_size]\n- **`h_n`**: [num_layers * num_directions, batch, hidden_size]\n- **`c_n`**: [num_layers * num_directions, batch, hidden_size]\n\n---\n\n### TL;DR\n\n- Το ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "_",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 30,
+                "endLineNumber": 42,
+                "endColumn": 30
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "7ee9595a-5d39-44ef-b065-6ee18ea7e203"
+        },
+        {
+          "value": " παίρνει το cell state, που εδώ δεν το χρησιμοποιείς.\n- Το LSTM της PyTorch επιστρέφει πάντα και τα δύο (hidden, cell).\n- Η αναδρομικότητα (το πέρασμα των states από time step σε time step) γίνεται **αυτόματα** από την PyTorch.\n- Εσύ απλά δίνεις όλο το sequence και παίρνεις τα outputs.\n\nΑν θέλεις να δεις πώς θα το έκανες \"χειροκίνητα\", πες μου!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_e1cfc9c6-2e1b-43d6-bc28-36a0d6413f2f",
+      "result": {
+        "timings": {
+          "firstProgress": 1162,
+          "totalElapsed": 8426
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "rnn_output, (hidden, _) = self.rnn(input_seq)\n",
+              "language": "python",
+              "markdownBeforeBlock": "Πολύ καλές και ουσιαστικές ερωτήσεις! Ας τα εξηγήσουμε αναλυτικά:\n\n---\n\n### 1. Τι είναι το  δίπλα στο ;\n\n"
+            },
+            {
+              "code": "output, (h_n, c_n)\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n- Το  επιστρέφει **δύο πράγματα**:\n  1. ****: Τα outputs του LSTM για κάθε time step (όλα τα hidden states).\n  2. **`(hidden, cell)`**: Μια πλειάδα (tuple) με το **τελευταίο hidden state** και το **τελευταίο cell state**.\n- Εδώ, το  παίρνει το τελευταίο hidden state, και το  παίρνει το τελευταίο cell state.\n- Το  είναι συμβατική ονομασία στην Python όταν δεν σε ενδιαφέρει να χρησιμοποιήσεις αυτή τη μεταβλητή.\n\n---\n\n### 2. Οι μεταβλητές αριστερά από το `=` είναι οι έξοδοι του LSTM layer;\n\nΝαι!  \n- ****: Όλα τα outputs του LSTM για κάθε time step (shape: `[seq_len, batch, num_directions * hidden_size]`).\n- ****: Το τελευταίο hidden state για κάθε layer και κάθε direction (shape: `[num_layers * num_directions, batch, hidden_size]`).\n- ** (cell)**: Το τελευταίο cell state για κάθε layer και κάθε direction (ίδιο shape με το hidden).\n\n---\n\n### 3. Δεν θα έπρεπε να έχει 2 εξόδους το hidden state (short term memory) και το cell state (long term memory);\n\n**Ναι, σωστά!**  \nΤο LSTM επιστρέφει και τα δύο:\n- Το **hidden state** (short-term memory)\n- Το **cell state** (long-term memory)\n\nΣτην PyTorch, το LSTM επιστρέφει:\n"
+            },
+            {
+              "code": "lstm = nn.LSTM(input_size, hidden_size, num_layers)\noutput, (h_n, c_n) = lstm(input_seq)\n",
+              "language": "python",
+              "markdownBeforeBlock": "όπου:\n- `output`: Όλα τα hidden states για κάθε time step.\n- `h_n`: Το τελευταίο hidden state.\n- `c_n`: Το τελευταίο cell state.\n\n---\n\n### 4. Η αναδρομικότητα γίνεται αυτόματα στην PyTorch;\n\n**Ναι, γίνεται αυτόματα!**  \n- Όταν καλείς το LSTM layer με ένα sequence, η PyTorch φροντίζει να περάσει το κάθε input του time step στο επόμενο LSTM cell μαζί με το hidden και cell state.\n- Εσύ απλά δίνεις όλο το sequence και η PyTorch κάνει όλη την \"αλυσίδα\" εσωτερικά.\n\n**Δεν χρειάζεται να γράψεις εσύ τον βρόχο για τα time steps ή να περάσεις χειροκίνητα τα hidden/cell states από το ένα βήμα στο άλλο.**\n\n---\n\n### Παράδειγμα (για να το δεις πιο καθαρά):\n\n"
+            }
+          ],
+          "modelMessageId": "2ba7efb4-6fc6-4086-ba35-59df30204d3c",
+          "responseId": "8719ebcf-9098-41e5-a332-967e405f1eb7",
+          "sessionId": "058fe794-4877-4c7b-b7ba-5cd9b2057626",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JohnnyRoyal",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/162148303",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\config.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/config.py",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1747502450341
+    },
+    {
+      "requestId": "request_41f41258-d969-4e82-837a-44dc2e4bbbcc",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 209
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 2,
+              "endColumn": 28
+            },
+            "text": "Γιατί μας ενδιαφέρουν τα hidden states όλων των προγούμενων time step, εμείς σαν έξοδο του δικτύου δεν πέρνουμε πάντα το τελευταίο hidden state και πάνω σε αυτό κάνουμε classify ;;\r\nΕδώ το τελευταίο πέρνει;;;;",
+            "kind": "text"
+          }
+        ],
+        "text": "Γιατί μας ενδιαφέρουν τα hidden states όλων των προγούμενων time step, εμείς σαν έξοδο του δικτύου δεν πέρνουμε πάντα το τελευταίο hidden state και πάνω σε αυτό κάνουμε classify ;;\r\nΕδώ το τελευταίο πέρνει;;;;"
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:lstm_classifier.py",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 7,
+                "startColumn": 1,
+                "endLineNumber": 49,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "Πολύ σωστή παρατήρηση! Ας το αναλύσουμε:\n\n---\n\n### Τι επιστρέφει το LSTM layer στην PyTorch;\n\n```python\nrnn_output, (hidden, _) = self.rnn(input_seq)\n```\n\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "a804cb82-a6f2-469f-a46b-8c63d7eb4ffa"
+        },
+        {
+          "value": "**: Περιέχει τα hidden states **όλων των time steps** (shape: `[seq_len, batch, num_directions * hidden_dim]`).\n- **",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "hidden",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 22,
+                "endLineNumber": 42,
+                "endColumn": 22
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "3f9ea8b1-cccb-4c02-acde-8ecaadc07df9"
+        },
+        {
+          "value": "**: Περιέχει το **τελευταίο hidden state** για κάθε layer και κάθε direction (shape: `[num_layers * num_directions, batch, hidden_dim]`).\n\n---\n\n### Τι χρησιμοποιείται συνήθως για classification;\n\n- **Συνήθως** (ειδικά σε sequence classification), παίρνουμε το **τελευταίο hidden state** (ή το hidden state του τελευταίου time step) και το περνάμε σε ένα Linear layer για να κάνουμε classification.\n- Αυτό γίνεται γιατί το τελευταίο hidden state \"συνοψίζει\" όλη την πληροφορία της ακολουθίας.\n\n---\n\n### Τι γίνεται στον δικό σου κώδικα;\n\n```python\nclass_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n```\n\n- Εδώ **ΔΕΝ** παίρνεις το τελευταίο hidden state!\n- Παίρνεις το **πρώτο time step** (",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "name": "rnn_output[0]",
+            "kind": 12,
+            "containerName": "",
+            "location": {
+              "range": {
+                "startLineNumber": 42,
+                "startColumn": 9,
+                "endLineNumber": 42,
+                "endColumn": 9
+              },
+              "uri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+                "_sep": 1,
+                "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+                "scheme": "file"
+              }
+            }
+          },
+          "resolveId": "33c4129a-66b2-4d6d-b9e7-cd9979b23e85"
+        },
+        {
+          "value": "), δηλαδή το hidden state του πρώτου βήματος της ακολουθίας.\n- **Αυτό συνήθως δεν είναι σωστό** για sequence classification, γιατί το πρώτο hidden state έχει πληροφορία μόνο από το πρώτο input, όχι από όλη την ακολουθία.\n\n---\n\n### Τι θα ήταν το σωστό;\n\nΓια sequence classification, **συνήθως παίρνουμε το τελευταίο time step**:\n\n```python\n# Για unidirectional LSTM:\nlast_output = rnn_output[-1]  # shape: [batch, hidden_dim]\n\n# Για bidirectional LSTM:\nif self.bidirectional:\n    last_output = torch.cat((hidden[-2], hidden[-1]), dim=1)  # συνδυάζεις τα δύο directions\nelse:\n    last_output = hidden[-1]\nclass_scores = F.softmax(self.out(last_output), dim=1)\n```\n\n---\n\n### Συμπέρασμα\n\n- **Δεν μας ενδιαφέρουν όλα τα hidden states** αν κάνουμε classification σε όλη την ακολουθία. Μας ενδιαφέρει το τελευταίο.\n- Στον δικό σου κώδικα, χρησιμοποιείται το πρώτο time step, που πιθανότατα είναι λάθος.\n- **Σωστό**: Πάρε το τελευταίο hidden state (ή το κατάλληλο hidden για bidirectional) και κάνε πάνω σε αυτό το classification.\n\nΑν θέλεις, μπορώ να σου δείξω πώς να το διορθώσεις!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_355b728a-dcd6-428e-8fad-5640a8f3cdda",
+      "result": {
+        "timings": {
+          "firstProgress": 1122,
+          "totalElapsed": 5903
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "rnn_output, (hidden, _) = self.rnn(input_seq)\n",
+              "language": "python",
+              "markdownBeforeBlock": "Πολύ σωστή παρατήρηση! Ας το αναλύσουμε:\n\n---\n\n### Τι επιστρέφει το LSTM layer στην PyTorch;\n\n"
+            },
+            {
+              "code": "class_scores = F.softmax(self.out(rnn_output[0]), dim=1)\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n- ****: Περιέχει τα hidden states **όλων των time steps** (shape: `[seq_len, batch, num_directions * hidden_dim]`).\n- ****: Περιέχει το **τελευταίο hidden state** για κάθε layer και κάθε direction (shape: `[num_layers * num_directions, batch, hidden_dim]`).\n\n---\n\n### Τι χρησιμοποιείται συνήθως για classification;\n\n- **Συνήθως** (ειδικά σε sequence classification), παίρνουμε το **τελευταίο hidden state** (ή το hidden state του τελευταίου time step) και το περνάμε σε ένα Linear layer για να κάνουμε classification.\n- Αυτό γίνεται γιατί το τελευταίο hidden state \"συνοψίζει\" όλη την πληροφορία της ακολουθίας.\n\n---\n\n### Τι γίνεται στον δικό σου κώδικα;\n\n"
+            },
+            {
+              "code": "# Για unidirectional LSTM:\nlast_output = rnn_output[-1]  # shape: [batch, hidden_dim]\n\n# Για bidirectional LSTM:\nif self.bidirectional:\n    last_output = torch.cat((hidden[-2], hidden[-1]), dim=1)  # συνδυάζεις τα δύο directions\nelse:\n    last_output = hidden[-1]\nclass_scores = F.softmax(self.out(last_output), dim=1)\n",
+              "language": "python",
+              "markdownBeforeBlock": "\n- Εδώ **ΔΕΝ** παίρνεις το τελευταίο hidden state!\n- Παίρνεις το **πρώτο time step** (), δηλαδή το hidden state του πρώτου βήματος της ακολουθίας.\n- **Αυτό συνήθως δεν είναι σωστό** για sequence classification, γιατί το πρώτο hidden state έχει πληροφορία μόνο από το πρώτο input, όχι από όλη την ακολουθία.\n\n---\n\n### Τι θα ήταν το σωστό;\n\nΓια sequence classification, **συνήθως παίρνουμε το τελευταίο time step**:\n\n"
+            }
+          ],
+          "modelMessageId": "d2842e58-111b-44bd-b593-616a983b2798",
+          "responseId": "33c2af71-75aa-44b0-b2de-d94b4392636b",
+          "sessionId": "058fe794-4877-4c7b-b7ba-5cd9b2057626",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": true,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "JohnnyRoyal",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/162148303",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "c:\\Users\\jkazi\\Documents\\GitHub\\multimodal-speech-emotion-recognition\\lstm_classifier\\combined\\lstm_classifier.py",
+            "_sep": 1,
+            "external": "file:///c%3A/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "path": "/c:/Users/jkazi/Documents/GitHub/multimodal-speech-emotion-recognition/lstm_classifier/combined/lstm_classifier.py",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1747502872954
+    }
+  ]
+}
